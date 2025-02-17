@@ -24,15 +24,21 @@ function main() {
             if (target != "interp") {
                 Sys.exit(Sys.command(runCmd));
 			}
+		case "buildexample":
+			final target = args[1];
+			final out = 'test.$target';
+			var code = Sys.command("haxe example.hxml --no-output " + buildTarget(target,out, "Example"));
+			if (code != 0)
+				Sys.exit(code);
         case "example": // TODO proper testing
-		final target = args[1];
-		final out = 'test.$target';
-            var code = Sys.command("haxe example.hxml " + buildTarget(target,out, "Example"));
+			final target = args[1];
+			final out = 'test.$target';
+			var code = Sys.command("haxe example.hxml " + buildTarget(target,out, "Example"));
 			if (code != 0)
 				Sys.exit(code);
 			final runCmd = runTarget(target, out, [], "");
-            if (runCmd != "") {
-                Sys.exit(Sys.command(runCmd));
+			if (runCmd != "") {
+				Sys.exit(Sys.command(runCmd));
 			}else{
 				Sys.println(runCmd);
 			}
