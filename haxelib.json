@@ -1,0 +1,19 @@
+{
+	"classPath": "golibs",
+	"name": "go2hx_harmonica",
+	"description": "",
+	"dependencies": {},
+	"url": "https://github.com/go2hx/harmonica",
+	"contributors": [
+		"pxshadow",
+		"elliott5"
+	],
+	"version": "0.1.0",
+	"tags": [
+		"physics",
+		"animation",
+        "universal",
+		"crossplatform"
+	],
+	"license": "MIT"
+}

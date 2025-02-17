@@ -9,6 +9,7 @@
 
 [Harmonica Go library](https://github.com/charmbracelet/harmonica) compiled with [go2hx](https://go2hx.github.io/) v0.1.0
 
+![example gif](example.gif)
 
 
 # Installation

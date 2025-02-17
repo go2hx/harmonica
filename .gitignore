@@ -1,0 +1,7 @@
+*.js
+*.txt
+*.hl
+*.js.map
+./harmonica/*
+.DS_Store
+.go2hx_cache

@@ -1,0 +1,6 @@
+-cp golibs
+-m Example
+--dce full
+-lib heaps
+-lib hlsdl
+--hl app.hl
