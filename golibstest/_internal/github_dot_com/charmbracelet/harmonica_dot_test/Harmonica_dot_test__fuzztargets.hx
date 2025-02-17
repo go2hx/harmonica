@@ -1,0 +1,2 @@
+package _internal.github_dot_com.charmbracelet.harmonica_dot_test;
+var _fuzzTargets : stdgo.Slice<stdgo._internal.testing.Testing_internalfuzztarget.InternalFuzzTarget> = (new stdgo.Slice<stdgo._internal.testing.Testing_internalfuzztarget.InternalFuzzTarget>(0, 0, ...[].concat([for (i in 0 ... (0 > 0 ? 0 : 0 : stdgo.GoInt).toBasic()) ({} : stdgo._internal.testing.Testing_internalfuzztarget.InternalFuzzTarget)])) : stdgo.Slice<stdgo._internal.testing.Testing_internalfuzztarget.InternalFuzzTarget>);
