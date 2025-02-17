@@ -1,0 +1,3 @@
+-m _internal.github_dot_com.charmbracelet.harmonica_dot_test.Harmonica_dot_test
+-lib go2hx
+-cp golibstest
