@@ -2,7 +2,9 @@
 	"classPath": "golibs",
 	"name": "go2hx_harmonica",
 	"description": "",
-	"dependencies": {},
+	"dependencies": {
+		"heaps": ""
+	},
 	"url": "https://github.com/go2hx/harmonica",
 	"contributors": [
 		"pxshadow",
