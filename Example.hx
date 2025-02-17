@@ -35,6 +35,8 @@ class Example extends hxd.App {
 
 	override function update(dt:Float) {
 		var window = hxd.Window.getInstance();
+		if (!window.isFocused)
+			return;
 		final dis = hxd.Math.distance(Math.abs(circle.x - window.mouseX), Math.abs(circle.y - window.mouseY));
 
 		if (Math.abs(dis) < radius * 4) {
