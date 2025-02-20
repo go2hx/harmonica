@@ -16,9 +16,6 @@
 
 ```sh
 haxelib git go2hx_harmonica https://github.com/go2hx/harmonica
-
-haxelib git heaps https://github.com/HeapsIO/heaps
-haxelib install hlsdl
 ```
 Add ``-lib go2hx_harmonica`` to your hxml for openfl/haxeflixel users ``<haxelib name="go2hx_harmonica" />``
 
